@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicespringcloudapi" />
+        <module name="microservicespringcloudconsumer80" />
+        <module name="microservicespringcloudconsumerfeign" />
+        <module name="microservicespringcloudeureka7001" />
+        <module name="microservicespringcloudeureka7002" />
+        <module name="microservicespringcloudeureka7003" />
+        <module name="microservicespringcloudprovider8001" />
+        <module name="microservicespringcloudprovider8002" />
+        <module name="microservicespringcloudprovider8003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicespringcloud" target="1.8" />
+      <module name="microservicespringcloudapi" target="1.8" />
+      <module name="microservicespringcloudconsumer80" target="1.8" />
+      <module name="microservicespringcloudconsumerfeign" target="1.8" />
+      <module name="microservicespringcloudeureka7001" target="1.8" />
+      <module name="microservicespringcloudeureka7002" target="1.8" />
+      <module name="microservicespringcloudeureka7003" target="1.8" />
+      <module name="microservicespringcloudprovider8001" target="1.8" />
+      <module name="microservicespringcloudprovider8002" target="1.8" />
+      <module name="microservicespringcloudprovider8003" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
