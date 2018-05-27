@@ -19,6 +19,8 @@
         <module>microservicespringcloudprovider8002</module>
         <module>microservicespringcloudprovider8003</module>
         <module>microservicespringcloudconsumerfeign</module>
+        <module>microservicespringcloudproviderhystrix8001</module>
+        <module>microservicespringcloudconsumerhystrixdashboard</module>
     </modules>
 
     <properties>
@@ -93,6 +95,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
                 <configuration>
                     <delimiters>
                         <delimit>$</delimit>

@@ -12,6 +12,7 @@ import feign.hystrix.FallbackFactory;
 @Component
 public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptClientService>
 {
+
     @Override
     public DeptClientService create(Throwable throwable)
     {
@@ -19,6 +20,7 @@ public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptCli
             @Override
             public Dept get(long id)
             {
+                System.out.println(throwable.toString());
                 return new Dept().setDeptno(id).setDname("该ID：" + id + "没有没有对应的信息,Consumer客户端提供的降级信息,此刻服务Provider已经关闭")
                         .setDb_source("no this database in MySQL");
             }

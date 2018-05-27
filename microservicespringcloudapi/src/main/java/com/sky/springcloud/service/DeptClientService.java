@@ -14,8 +14,8 @@ import com.sky.springcloud.entities.Dept;
 新建
 一个实现了FallbackFactory接口的类DeptClientServiceFallbackFactory
  */
-@FeignClient(value = "MICROSERVICECLOUDDEPT")
-//@FeignClient(value = "MICROSERVICECLOUDDEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
+//@FeignClient(value = "MICROSERVICECLOUDDEPT")
+@FeignClient(value = "MICROSERVICECLOUDDEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
 public interface DeptClientService
 {
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
