@@ -3,16 +3,22 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudconfig3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudconfigProvider8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudconfigclient3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudconfigdeptclient8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudconfigeureka7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudconfigeurekaclient7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudconsumer80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudconsumerfeign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudconsumerhystrixdashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudeureka7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudeureka7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudeureka7003" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicespringcloudhystrix8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudprovider8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudprovider8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudprovider8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicespringcloudproviderhystrix8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicespringcloudzuulgateway9527" charset="UTF-8" />
   </component>
 </project>

@@ -8,6 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicespringcloudapi" />
+        <module name="microservicespringcloudconfig3344" />
+        <module name="microservicespringcloudconfigclient3355" />
+        <module name="microservicespringcloudconfigeureka7001" />
+        <module name="microservicespringcloudconfigeurekaclient7001" />
+        <module name="microservicespringcloudconfigProvider8001" />
         <module name="microservicespringcloudconsumer80" />
         <module name="microservicespringcloudconsumerfeign" />
         <module name="microservicespringcloudconsumerhystrixdashboard" />
@@ -19,11 +24,18 @@
         <module name="microservicespringcloudprovider8002" />
         <module name="microservicespringcloudprovider8003" />
         <module name="microservicespringcloudproviderhystrix8001" />
+        <module name="microservicespringcloudzuulgateway9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservicespringcloud" target="1.8" />
       <module name="microservicespringcloudapi" target="1.8" />
+      <module name="microservicespringcloudconfig3344" target="1.8" />
+      <module name="microservicespringcloudconfigclient3355" target="1.8" />
+      <module name="microservicespringcloudconfigdeptclient8001" target="1.8" />
+      <module name="microservicespringcloudconfigeureka7001" target="1.8" />
+      <module name="microservicespringcloudconfigeurekaclient7001" target="1.8" />
+      <module name="microservicespringcloudconfigProvider8001" target="1.8" />
       <module name="microservicespringcloudconsumer80" target="1.8" />
       <module name="microservicespringcloudconsumerfeign" target="1.8" />
       <module name="microservicespringcloudconsumerhystrixdashboard" target="1.8" />
@@ -35,6 +47,7 @@
       <module name="microservicespringcloudprovider8002" target="1.8" />
       <module name="microservicespringcloudprovider8003" target="1.8" />
       <module name="microservicespringcloudproviderhystrix8001" target="1.8" />
+      <module name="microservicespringcloudzuulgateway9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

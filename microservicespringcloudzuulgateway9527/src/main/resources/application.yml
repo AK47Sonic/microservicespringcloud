@@ -1,0 +1,32 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservicecloudzuulgateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway9527.com
+    prefer-ip-address: true
+
+
+zuul:
+# 隐藏真服务名
+  #ignored-services: microserviceclouddept
+#  prefix: /sky
+#  ignored-services: "*"
+  routes:
+#  增加服务别名
+    mydept.serviceId: microserviceclouddept
+    mydept.path: /mydept/**
+
+info:
+  app.name: skymicrocloud
+  company.name: www.sky.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+

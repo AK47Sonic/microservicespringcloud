@@ -21,6 +21,11 @@
         <module>microservicespringcloudconsumerfeign</module>
         <module>microservicespringcloudproviderhystrix8001</module>
         <module>microservicespringcloudconsumerhystrixdashboard</module>
+        <module>microservicespringcloudzuulgateway9527</module>
+        <module>microservicespringcloudconfig3344</module>
+        <module>microservicespringcloudconfigclient3355</module>
+        <module>microservicespringcloudconfigeureka7001</module>
+        <module>microservicespringcloudconfigProvider8001</module>
     </modules>
 
     <properties>
